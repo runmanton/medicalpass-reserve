@@ -1,0 +1,7 @@
+Options +ExecCGI -Indexes
+AddHandler cgi-script .py
+DirectoryIndex index.py
+
+# HTTPS への強制リダイレクトは ConoHa WING のコントロールパネル
+# （サイト管理 > サイトセキュリティ > 無料独自SSL / HTTPSリダイレクト）で設定する。
+# ここで %{HTTPS} を判定すると、前段のプロキシ経由では常に off となりリダイレクトがループする。

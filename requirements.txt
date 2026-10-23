@@ -1,0 +1,9 @@
+# 共通（mp_core）
+requests
+beautifulsoup4
+# デスクトップアプリ
+keyring
+pyinstaller
+# Web 版（ConoHa WING）
+cryptography
+jpholiday

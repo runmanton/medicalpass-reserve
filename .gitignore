@@ -1,0 +1,21 @@
+# ビルド成果物（exe は必要に応じて GitHub Releases へ）
+dist/
+build/
+*.spec
+
+# ログ・HTML レスポンス（氏名・生年月日・診察券番号などの個人情報を含む）
+logs/
+*.log
+
+# サーバー上の設定・秘密情報（パスワード暗号文・暗号鍵・受付予定）
+data/
+config.ini
+secret.key
+
+# pip --target でインストールしたライブラリ
+conoha/medicalpass/lib/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
